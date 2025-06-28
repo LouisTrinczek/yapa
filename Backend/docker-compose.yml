@@ -2,7 +2,7 @@
 
 services:
 
-  db:
+  yapa-dev-db:
     container_name: postgres
     image: postgres:latest
     restart: always

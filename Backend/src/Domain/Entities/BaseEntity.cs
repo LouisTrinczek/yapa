@@ -9,7 +9,7 @@ public class BaseEntity
     public DateTime? UpdatedAt { get; protected set; }
     public DateTime? ArchivedAt { get; protected set; }
 
-    protected void Update()
+    protected void OnUpdate()
     {
         UpdatedAt = DateTime.UtcNow;
     }
